@@ -1,0 +1,10 @@
+# load the data in RStudo 
+
+library(dplyr)
+setwd("C:\\Users\\ejohnso\\Documents\\Education\\Springboard")
+refine <- read.csv("refine_original.csv")
+
+# clean up brand names 
+philips <- "Phillips"
+tolower(philips)
+head(refine)
